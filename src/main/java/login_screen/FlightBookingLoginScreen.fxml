@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" fx:controller="login_screen.LoginScreenController" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="851.0" prefWidth="1325.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffc61f" height="865.0" layoutX="807.0" layoutY="-5.0" stroke="BLACK" strokeType="INSIDE" width="519.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#05223c" height="851.0" stroke="BLACK" strokeType="INSIDE" width="807.0" />
+      <ImageView fitHeight="247.0" fitWidth="312.0" layoutX="141.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@./WhatsApp%20Image%202023-11-21%20at%209.49.33%20PM.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="422.0" fitWidth="433.0" layoutX="850.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@./Logoo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="205.0" layoutY="290.0" text="Login" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="27.0" />
+         </font>
+      </Label>
+      <TextField fx:id="EmailID" layoutX="141.0" layoutY="387.0" prefHeight="39.0" prefWidth="333.0" promptText="Email ID" />
+      <TextField fx:id="Password" layoutX="141.0" layoutY="459.0" prefHeight="39.0" prefWidth="333.0" promptText="Password" />
+      <Button fx:id="Login" layoutX="141.0" layoutY="575.0" mnemonicParsing="false" onAction="#login_button" style="-fx-background-color: #ffc61f;" text="Login" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

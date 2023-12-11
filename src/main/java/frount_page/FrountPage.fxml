@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" fx:controller="frount_page.FrountPageScreenController" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="861.0" prefWidth="1326.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="869.0" layoutX="-5.0" layoutY="-6.0" stroke="BLACK" strokeType="INSIDE" width="1332.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <ImageView fitHeight="512.0" fitWidth="922.0" layoutX="-10.0" layoutY="319.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@./Airline_Reservations_System256.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="94.0" layoutY="67.0" prefHeight="242.0" prefWidth="1127.0" text="FLIGHT BOOKING SYSTEM" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="74.0" />
+         </font>
+      </Label>
+      <Label text="Label" />
+      <Button fx:id="Start" layoutX="929.0" layoutY="646.0" mnemonicParsing="false" onAction="#start_button" style="-fx-background-color: ea7e43;" text="Start " textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="28.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

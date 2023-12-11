@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" fx:controller="edit_flight.FlightBookingEditScreenController" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="817.0" prefWidth="1371.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffb21f" height="157.0" stroke="BLACK" strokeType="INSIDE" width="1348.0" />
+      <Label layoutX="125.0" layoutY="75.0" text="Edit Flight" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="31.0" />
+         </font>
+      </Label>
+      <Label layoutX="61.0" layoutY="187.0" text="Flight Name to Edit">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="22.0" />
+         </font>
+      </Label>
+      <TextField fx:id="flightname" layoutX="336.0" layoutY="181.0" prefHeight="39.0" prefWidth="525.0" promptText="FlightName" />
+      <Label layoutX="61.0" layoutY="253.0" text="New Flight Name">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="57.0" layoutY="323.0" text="New Payment Cost">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="57.0" layoutY="395.0" text="New Departure City">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="57.0" layoutY="456.0" text="New Arrival City">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="53.0" layoutY="522.0" text="New Booking Date">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="22.0" />
+         </font>
+      </Label>
+      <TextField fx:id="new_flightname" layoutX="336.0" layoutY="247.0" prefHeight="39.0" prefWidth="525.0" promptText="New FlightName" />
+      <TextField fx:id="new_payment" layoutX="336.0" layoutY="311.0" prefHeight="39.0" prefWidth="525.0" promptText="New Payment Cost" />
+      <TextField fx:id="new_departure_city" layoutX="336.0" layoutY="376.0" prefHeight="39.0" prefWidth="525.0" promptText="New Departure City" />
+      <TextField fx:id="new_arrival_city" layoutX="336.0" layoutY="444.0" prefHeight="39.0" prefWidth="525.0" promptText="New Arrival City" />
+      <TextField fx:id="new_booking_date" layoutX="335.0" layoutY="516.0" prefHeight="39.0" prefWidth="525.0" promptText="New Booking Date" />
+      <Button fx:id="back" layoutX="290.0" layoutY="693.0" mnemonicParsing="false" onAction="#back_button" style="-fx-background-color: ffffff;" text="Back" textFill="#eb1919">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="save" layoutX="674.0" layoutY="693.0" mnemonicParsing="false" onAction="#save_button" style="-fx-background-color: ffb21f;" text="Save" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="22.0" />
+         </font></Button>
+      <Button fx:id="Edit" layoutX="885.0" layoutY="182.0" mnemonicParsing="false" onAction="#editButton" prefHeight="37.0" prefWidth="114.0" style="-fx-background-color: #58da79;" text="Edit" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Button>
+      <Circle fill="#0a4175" layoutX="835.0" layoutY="90.0" radius="38.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="809.0" layoutY="52.0" text="G" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="65.0" />
+         </font>
+      </Label>
+      <Label layoutX="885.0" layoutY="75.0" text="Gayatri (Admin)" textFill="WHITE">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="53.0" layoutY="580.0" text="Arrival Date">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="new_arrival_date" layoutX="335.0" layoutY="584.0" prefHeight="39.0" prefWidth="525.0" promptText="New Arrival Date" />
+      <Label layoutX="53.0" layoutY="636.0" text="Time of Flight">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="new_time_of_flight" layoutX="335.0" layoutY="643.0" prefHeight="39.0" prefWidth="525.0" promptText="New Time of Flight" />
+   </children>
+</Pane>
